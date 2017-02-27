@@ -1,0 +1,21 @@
+/*
+.header .search{
+  width: 150px;
+  float: right;
+}
+*/
+
+.header .block-search {
+  display: flex;
+  align-content: space-between;
+  justify-content: center;
+}
+
+.header .block-search > * {
+  flex: 1;
+}
+
+.header .block-search__checkbox {
+  top: 8px;
+}
+
