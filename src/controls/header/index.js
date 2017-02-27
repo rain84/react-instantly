@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { Row, Col, Checkbox, InputGroup, FormControl, Glyphicon} from 'react-bootstrap'
-import './header.style.css'
+import './style.css'
 
 class Header extends Component {
 

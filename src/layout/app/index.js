@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { Grid } from 'react-bootstrap'
-import { Header, Content } from './../../components'
-import './app.style.css'
+import { Header, Content } from './../../controls'
+import './style.css'
 
 class App extends Component {
 /*

@@ -1,6 +1,7 @@
 .app {
   width: 1200px;
   border: 1px solid black;
+  margin-top: 20px;
 }
 
 .app-logo {

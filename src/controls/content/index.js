@@ -1,14 +1,15 @@
 import React, { Component } from 'react'
 import { Row, Col } from 'react-bootstrap'
-import './content.style.css'
+import { TodoCategories, TodoItems } from '../../controls'
+import './style.css'
 
 const Content = () => (
   <Row>
     <Col xs={6}>
-      <p>Todo-Categories</p>
+      <TodoCategories/>
     </Col>
     <Col xs={6}>
-      <p>Todo-Item</p>
+      <TodoItems/>
     </Col>
   </Row>
 );
